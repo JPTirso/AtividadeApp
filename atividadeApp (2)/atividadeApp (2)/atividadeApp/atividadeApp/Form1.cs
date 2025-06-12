@@ -56,5 +56,12 @@ namespace atividadeApp
             frmCirculo circulo = new frmCirculo();
             circulo.Show();
         }
+
+        private void médiaDasNotasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmNotas notas = new frmNotas();
+            notas.Show();
+        }
     }
 }
