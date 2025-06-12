@@ -44,44 +44,45 @@
             // lblNum1
             // 
             lblNum1.AutoSize = true;
-            lblNum1.Location = new Point(86, 84);
+            lblNum1.Location = new Point(75, 63);
             lblNum1.Name = "lblNum1";
-            lblNum1.Size = new Size(193, 20);
+            lblNum1.Size = new Size(155, 15);
             lblNum1.TabIndex = 0;
             lblNum1.Text = "Informe o primeiro número:";
             // 
             // lblNum2
             // 
             lblNum2.AutoSize = true;
-            lblNum2.Location = new Point(86, 186);
+            lblNum2.Location = new Point(75, 140);
             lblNum2.Name = "lblNum2";
-            lblNum2.Size = new Size(193, 20);
+            lblNum2.Size = new Size(156, 15);
             lblNum2.TabIndex = 1;
             lblNum2.Text = "Informe o segundo número:";
             // 
             // lblNum3
             // 
             lblNum3.AutoSize = true;
-            lblNum3.Location = new Point(86, 288);
+            lblNum3.Location = new Point(75, 216);
             lblNum3.Name = "lblNum3";
-            lblNum3.Size = new Size(187, 20);
+            lblNum3.Size = new Size(150, 15);
             lblNum3.TabIndex = 2;
             lblNum3.Text = "Informe o terceiro número:";
             // 
             // lblPotencia
             // 
             lblPotencia.AutoSize = true;
-            lblPotencia.Location = new Point(86, 400);
+            lblPotencia.Location = new Point(75, 300);
             lblPotencia.Name = "lblPotencia";
-            lblPotencia.Size = new Size(165, 20);
+            lblPotencia.Size = new Size(130, 15);
             lblPotencia.TabIndex = 3;
             lblPotencia.Text = "O quadrado da soma é:";
             // 
             // btnConverterP
             // 
-            btnConverterP.Location = new Point(86, 476);
+            btnConverterP.Location = new Point(90, 357);
+            btnConverterP.Margin = new Padding(3, 2, 3, 2);
             btnConverterP.Name = "btnConverterP";
-            btnConverterP.Size = new Size(145, 61);
+            btnConverterP.Size = new Size(135, 46);
             btnConverterP.TabIndex = 4;
             btnConverterP.Text = "Converter";
             btnConverterP.UseVisualStyleBackColor = true;
@@ -89,9 +90,10 @@
             // 
             // btnLimparP
             // 
-            btnLimparP.Location = new Point(357, 476);
+            btnLimparP.Location = new Point(311, 357);
+            btnLimparP.Margin = new Padding(3, 2, 3, 2);
             btnLimparP.Name = "btnLimparP";
-            btnLimparP.Size = new Size(145, 61);
+            btnLimparP.Size = new Size(135, 46);
             btnLimparP.TabIndex = 5;
             btnLimparP.Text = "Limpar";
             btnLimparP.UseVisualStyleBackColor = true;
@@ -99,9 +101,10 @@
             // 
             // btnVoltarP
             // 
-            btnVoltarP.Location = new Point(628, 476);
+            btnVoltarP.Location = new Point(526, 357);
+            btnVoltarP.Margin = new Padding(3, 2, 3, 2);
             btnVoltarP.Name = "btnVoltarP";
-            btnVoltarP.Size = new Size(145, 61);
+            btnVoltarP.Size = new Size(135, 46);
             btnVoltarP.TabIndex = 6;
             btnVoltarP.Text = "Voltar";
             btnVoltarP.UseVisualStyleBackColor = true;
@@ -109,38 +112,42 @@
             // 
             // txtNum1
             // 
-            txtNum1.Location = new Point(543, 77);
+            txtNum1.Location = new Point(475, 58);
+            txtNum1.Margin = new Padding(3, 2, 3, 2);
             txtNum1.Name = "txtNum1";
-            txtNum1.Size = new Size(125, 27);
+            txtNum1.Size = new Size(110, 23);
             txtNum1.TabIndex = 7;
             // 
             // txtNum2
             // 
-            txtNum2.Location = new Point(543, 179);
+            txtNum2.Location = new Point(475, 134);
+            txtNum2.Margin = new Padding(3, 2, 3, 2);
             txtNum2.Name = "txtNum2";
-            txtNum2.Size = new Size(125, 27);
+            txtNum2.Size = new Size(110, 23);
             txtNum2.TabIndex = 8;
             // 
             // txtNum3
             // 
-            txtNum3.Location = new Point(543, 281);
+            txtNum3.Location = new Point(475, 211);
+            txtNum3.Margin = new Padding(3, 2, 3, 2);
             txtNum3.Name = "txtNum3";
-            txtNum3.Size = new Size(134, 27);
+            txtNum3.Size = new Size(118, 23);
             txtNum3.TabIndex = 9;
             // 
             // txtPotencia
             // 
-            txtPotencia.Location = new Point(543, 393);
+            txtPotencia.Location = new Point(475, 295);
+            txtPotencia.Margin = new Padding(3, 2, 3, 2);
             txtPotencia.Name = "txtPotencia";
             txtPotencia.ReadOnly = true;
-            txtPotencia.Size = new Size(125, 27);
+            txtPotencia.Size = new Size(110, 23);
             txtPotencia.TabIndex = 10;
             // 
             // frmPotencia
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
             Controls.Add(txtPotencia);
             Controls.Add(txtNum3);
             Controls.Add(txtNum2);
@@ -152,6 +159,7 @@
             Controls.Add(lblNum3);
             Controls.Add(lblNum2);
             Controls.Add(lblNum1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "frmPotencia";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quadrado da Soma";
