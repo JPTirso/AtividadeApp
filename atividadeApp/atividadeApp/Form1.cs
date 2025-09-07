@@ -70,5 +70,19 @@ namespace atividadeApp
             frmJogo jogo = new frmJogo();
             jogo.Show();
         }
+
+        private void preçoDeLivrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmLivros livro = new frmLivros();
+            livro.Show();
+        }
+
+        private void novoSalarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmSN salario = new frmSN();
+            salario.Show();
+        }
     }
 }

@@ -36,8 +36,10 @@
             quadradoDaSomaToolStripMenuItem = new ToolStripMenuItem();
             areaDaCircunferenciaToolStripMenuItem = new ToolStripMenuItem();
             médiaDasNotasToolStripMenuItem = new ToolStripMenuItem();
-            mtsSair = new ToolStripMenuItem();
             rendaDeUmJogoToolStripMenuItem = new ToolStripMenuItem();
+            preçoDeLivrosToolStripMenuItem = new ToolStripMenuItem();
+            mtsSair = new ToolStripMenuItem();
+            novoSalarioToolStripMenuItem = new ToolStripMenuItem();
             mtsMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,7 +56,7 @@
             // 
             // mtsProgramas
             // 
-            mtsProgramas.DropDownItems.AddRange(new ToolStripItem[] { mtsiTemperatura, mtsiVelocidade, realParaDolarToolStripMenuItem, quadradoDaSomaToolStripMenuItem, areaDaCircunferenciaToolStripMenuItem, médiaDasNotasToolStripMenuItem, rendaDeUmJogoToolStripMenuItem });
+            mtsProgramas.DropDownItems.AddRange(new ToolStripItem[] { mtsiTemperatura, mtsiVelocidade, realParaDolarToolStripMenuItem, quadradoDaSomaToolStripMenuItem, areaDaCircunferenciaToolStripMenuItem, médiaDasNotasToolStripMenuItem, rendaDeUmJogoToolStripMenuItem, preçoDeLivrosToolStripMenuItem, novoSalarioToolStripMenuItem });
             mtsProgramas.Name = "mtsProgramas";
             mtsProgramas.Size = new Size(94, 24);
             mtsProgramas.Text = "Programas";
@@ -102,6 +104,20 @@
             médiaDasNotasToolStripMenuItem.Text = "Média das notas";
             médiaDasNotasToolStripMenuItem.Click += médiaDasNotasToolStripMenuItem_Click;
             // 
+            // rendaDeUmJogoToolStripMenuItem
+            // 
+            rendaDeUmJogoToolStripMenuItem.Name = "rendaDeUmJogoToolStripMenuItem";
+            rendaDeUmJogoToolStripMenuItem.Size = new Size(265, 26);
+            rendaDeUmJogoToolStripMenuItem.Text = "Renda de um jogo";
+            rendaDeUmJogoToolStripMenuItem.Click += rendaDeUmJogoToolStripMenuItem_Click;
+            // 
+            // preçoDeLivrosToolStripMenuItem
+            // 
+            preçoDeLivrosToolStripMenuItem.Name = "preçoDeLivrosToolStripMenuItem";
+            preçoDeLivrosToolStripMenuItem.Size = new Size(265, 26);
+            preçoDeLivrosToolStripMenuItem.Text = "Preço de livros";
+            preçoDeLivrosToolStripMenuItem.Click += preçoDeLivrosToolStripMenuItem_Click;
+            // 
             // mtsSair
             // 
             mtsSair.Name = "mtsSair";
@@ -109,12 +125,12 @@
             mtsSair.Text = "Sair";
             mtsSair.Click += mtsSair_Click;
             // 
-            // rendaDeUmJogoToolStripMenuItem
+            // novoSalarioToolStripMenuItem
             // 
-            rendaDeUmJogoToolStripMenuItem.Name = "rendaDeUmJogoToolStripMenuItem";
-            rendaDeUmJogoToolStripMenuItem.Size = new Size(265, 26);
-            rendaDeUmJogoToolStripMenuItem.Text = "Renda de um jogo";
-            rendaDeUmJogoToolStripMenuItem.Click += rendaDeUmJogoToolStripMenuItem_Click;
+            novoSalarioToolStripMenuItem.Name = "novoSalarioToolStripMenuItem";
+            novoSalarioToolStripMenuItem.Size = new Size(265, 26);
+            novoSalarioToolStripMenuItem.Text = "Novo salario";
+            novoSalarioToolStripMenuItem.Click += novoSalarioToolStripMenuItem_Click;
             // 
             // frmMenu
             // 
@@ -145,5 +161,7 @@
         private ToolStripMenuItem areaDaCircunferenciaToolStripMenuItem;
         private ToolStripMenuItem médiaDasNotasToolStripMenuItem;
         private ToolStripMenuItem rendaDeUmJogoToolStripMenuItem;
+        private ToolStripMenuItem preçoDeLivrosToolStripMenuItem;
+        private ToolStripMenuItem novoSalarioToolStripMenuItem;
     }
 }
