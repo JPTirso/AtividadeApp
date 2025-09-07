@@ -44,5 +44,10 @@ namespace atividadeApp
             txtCambio.Text = "";
             txtDolar.Text = "";
         }
+
+        private void lblReal_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

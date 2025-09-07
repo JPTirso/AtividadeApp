@@ -38,8 +38,9 @@
             médiaDasNotasToolStripMenuItem = new ToolStripMenuItem();
             rendaDeUmJogoToolStripMenuItem = new ToolStripMenuItem();
             preçoDeLivrosToolStripMenuItem = new ToolStripMenuItem();
-            mtsSair = new ToolStripMenuItem();
             novoSalarioToolStripMenuItem = new ToolStripMenuItem();
+            mtsSair = new ToolStripMenuItem();
+            calculadoraDeIMCToolStripMenuItem = new ToolStripMenuItem();
             mtsMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,7 +57,7 @@
             // 
             // mtsProgramas
             // 
-            mtsProgramas.DropDownItems.AddRange(new ToolStripItem[] { mtsiTemperatura, mtsiVelocidade, realParaDolarToolStripMenuItem, quadradoDaSomaToolStripMenuItem, areaDaCircunferenciaToolStripMenuItem, médiaDasNotasToolStripMenuItem, rendaDeUmJogoToolStripMenuItem, preçoDeLivrosToolStripMenuItem, novoSalarioToolStripMenuItem });
+            mtsProgramas.DropDownItems.AddRange(new ToolStripItem[] { mtsiTemperatura, mtsiVelocidade, realParaDolarToolStripMenuItem, quadradoDaSomaToolStripMenuItem, areaDaCircunferenciaToolStripMenuItem, médiaDasNotasToolStripMenuItem, rendaDeUmJogoToolStripMenuItem, preçoDeLivrosToolStripMenuItem, novoSalarioToolStripMenuItem, calculadoraDeIMCToolStripMenuItem });
             mtsProgramas.Name = "mtsProgramas";
             mtsProgramas.Size = new Size(94, 24);
             mtsProgramas.Text = "Programas";
@@ -118,6 +119,13 @@
             preçoDeLivrosToolStripMenuItem.Text = "Preço de livros";
             preçoDeLivrosToolStripMenuItem.Click += preçoDeLivrosToolStripMenuItem_Click;
             // 
+            // novoSalarioToolStripMenuItem
+            // 
+            novoSalarioToolStripMenuItem.Name = "novoSalarioToolStripMenuItem";
+            novoSalarioToolStripMenuItem.Size = new Size(265, 26);
+            novoSalarioToolStripMenuItem.Text = "Novo salario";
+            novoSalarioToolStripMenuItem.Click += novoSalarioToolStripMenuItem_Click;
+            // 
             // mtsSair
             // 
             mtsSair.Name = "mtsSair";
@@ -125,12 +133,12 @@
             mtsSair.Text = "Sair";
             mtsSair.Click += mtsSair_Click;
             // 
-            // novoSalarioToolStripMenuItem
+            // calculadoraDeIMCToolStripMenuItem
             // 
-            novoSalarioToolStripMenuItem.Name = "novoSalarioToolStripMenuItem";
-            novoSalarioToolStripMenuItem.Size = new Size(265, 26);
-            novoSalarioToolStripMenuItem.Text = "Novo salario";
-            novoSalarioToolStripMenuItem.Click += novoSalarioToolStripMenuItem_Click;
+            calculadoraDeIMCToolStripMenuItem.Name = "calculadoraDeIMCToolStripMenuItem";
+            calculadoraDeIMCToolStripMenuItem.Size = new Size(265, 26);
+            calculadoraDeIMCToolStripMenuItem.Text = "Calculadora de IMC";
+            calculadoraDeIMCToolStripMenuItem.Click += calculadoraDeIMCToolStripMenuItem_Click;
             // 
             // frmMenu
             // 
@@ -163,5 +171,6 @@
         private ToolStripMenuItem rendaDeUmJogoToolStripMenuItem;
         private ToolStripMenuItem preçoDeLivrosToolStripMenuItem;
         private ToolStripMenuItem novoSalarioToolStripMenuItem;
+        private ToolStripMenuItem calculadoraDeIMCToolStripMenuItem;
     }
 }

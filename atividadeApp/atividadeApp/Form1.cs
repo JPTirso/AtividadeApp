@@ -84,5 +84,12 @@ namespace atividadeApp
             frmSN salario = new frmSN();
             salario.Show();
         }
+
+        private void calculadoraDeIMCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmImc imc = new frmImc();
+            imc.Show();
+        }
     }
 }

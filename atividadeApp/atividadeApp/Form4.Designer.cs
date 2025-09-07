@@ -47,6 +47,7 @@
             lblReal.Size = new Size(215, 20);
             lblReal.TabIndex = 0;
             lblReal.Text = "Quantos reais deseja converter:";
+            lblReal.Click += lblReal_Click;
             // 
             // lblCambio
             // 
@@ -56,6 +57,7 @@
             lblCambio.Size = new Size(253, 20);
             lblCambio.TabIndex = 1;
             lblCambio.Text = "Quanto esta o cambio do dolar hoje:";
+            lblCambio.Click += this.lblCambio_Click;
             // 
             // lblDolar
             // 
@@ -103,6 +105,7 @@
             txtReal.Name = "txtReal";
             txtReal.Size = new Size(125, 27);
             txtReal.TabIndex = 6;
+            txtReal.TextChanged += this.txtReal_TextChanged;
             // 
             // txtCambio
             // 
@@ -110,6 +113,7 @@
             txtCambio.Name = "txtCambio";
             txtCambio.Size = new Size(125, 27);
             txtCambio.TabIndex = 7;
+            txtCambio.TextChanged += this.txtCambio_TextChanged;
             // 
             // txtDolar
             // 
@@ -118,6 +122,7 @@
             txtDolar.ReadOnly = true;
             txtDolar.Size = new Size(125, 27);
             txtDolar.TabIndex = 8;
+            txtDolar.TextChanged += this.txtDolar_TextChanged;
             // 
             // frmDolar
             // 
