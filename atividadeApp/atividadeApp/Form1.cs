@@ -91,5 +91,12 @@ namespace atividadeApp
             frmImc imc = new frmImc();
             imc.Show();
         }
+
+        private void cardapioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmCardapio cardapio = new frmCardapio();
+            cardapio.Show();
+        }
     }
 }
