@@ -63,5 +63,12 @@ namespace atividadeApp
             frmNotas notas = new frmNotas();
             notas.Show();
         }
+
+        private void rendaDeUmJogoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmJogo jogo = new frmJogo();
+            jogo.Show();
+        }
     }
 }

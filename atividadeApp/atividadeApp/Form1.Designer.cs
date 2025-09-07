@@ -35,8 +35,9 @@
             realParaDolarToolStripMenuItem = new ToolStripMenuItem();
             quadradoDaSomaToolStripMenuItem = new ToolStripMenuItem();
             areaDaCircunferenciaToolStripMenuItem = new ToolStripMenuItem();
-            mtsSair = new ToolStripMenuItem();
             médiaDasNotasToolStripMenuItem = new ToolStripMenuItem();
+            mtsSair = new ToolStripMenuItem();
+            rendaDeUmJogoToolStripMenuItem = new ToolStripMenuItem();
             mtsMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -46,74 +47,83 @@
             mtsMenu.Items.AddRange(new ToolStripItem[] { mtsProgramas, mtsSair });
             mtsMenu.Location = new Point(0, 0);
             mtsMenu.Name = "mtsMenu";
-            mtsMenu.Size = new Size(800, 24);
+            mtsMenu.Padding = new Padding(7, 3, 0, 3);
+            mtsMenu.Size = new Size(914, 30);
             mtsMenu.TabIndex = 0;
             mtsMenu.Text = "menuStrip1";
             // 
             // mtsProgramas
             // 
-            mtsProgramas.DropDownItems.AddRange(new ToolStripItem[] { mtsiTemperatura, mtsiVelocidade, realParaDolarToolStripMenuItem, quadradoDaSomaToolStripMenuItem, areaDaCircunferenciaToolStripMenuItem, médiaDasNotasToolStripMenuItem });
+            mtsProgramas.DropDownItems.AddRange(new ToolStripItem[] { mtsiTemperatura, mtsiVelocidade, realParaDolarToolStripMenuItem, quadradoDaSomaToolStripMenuItem, areaDaCircunferenciaToolStripMenuItem, médiaDasNotasToolStripMenuItem, rendaDeUmJogoToolStripMenuItem });
             mtsProgramas.Name = "mtsProgramas";
-            mtsProgramas.Size = new Size(76, 20);
+            mtsProgramas.Size = new Size(94, 24);
             mtsProgramas.Text = "Programas";
             mtsProgramas.Click += programasToolStripMenuItem_Click;
             // 
             // mtsiTemperatura
             // 
             mtsiTemperatura.Name = "mtsiTemperatura";
-            mtsiTemperatura.Size = new Size(212, 22);
+            mtsiTemperatura.Size = new Size(265, 26);
             mtsiTemperatura.Text = "Conversor de temperatura";
             mtsiTemperatura.Click += mtsiTemperatura_Click;
             // 
             // mtsiVelocidade
             // 
             mtsiVelocidade.Name = "mtsiVelocidade";
-            mtsiVelocidade.Size = new Size(212, 22);
+            mtsiVelocidade.Size = new Size(265, 26);
             mtsiVelocidade.Text = "Velocidade Média";
             mtsiVelocidade.Click += mtsiVelocidade_Click;
             // 
             // realParaDolarToolStripMenuItem
             // 
             realParaDolarToolStripMenuItem.Name = "realParaDolarToolStripMenuItem";
-            realParaDolarToolStripMenuItem.Size = new Size(212, 22);
+            realParaDolarToolStripMenuItem.Size = new Size(265, 26);
             realParaDolarToolStripMenuItem.Text = "Real para Dolar";
             realParaDolarToolStripMenuItem.Click += realParaDolarToolStripMenuItem_Click;
             // 
             // quadradoDaSomaToolStripMenuItem
             // 
             quadradoDaSomaToolStripMenuItem.Name = "quadradoDaSomaToolStripMenuItem";
-            quadradoDaSomaToolStripMenuItem.Size = new Size(212, 22);
+            quadradoDaSomaToolStripMenuItem.Size = new Size(265, 26);
             quadradoDaSomaToolStripMenuItem.Text = "Quadrado da Soma";
             quadradoDaSomaToolStripMenuItem.Click += quadradoDaSomaToolStripMenuItem_Click;
             // 
             // areaDaCircunferenciaToolStripMenuItem
             // 
             areaDaCircunferenciaToolStripMenuItem.Name = "areaDaCircunferenciaToolStripMenuItem";
-            areaDaCircunferenciaToolStripMenuItem.Size = new Size(212, 22);
+            areaDaCircunferenciaToolStripMenuItem.Size = new Size(265, 26);
             areaDaCircunferenciaToolStripMenuItem.Text = "Area da Circunferencia";
             areaDaCircunferenciaToolStripMenuItem.Click += areaDaCircunferenciaToolStripMenuItem_Click;
-            // 
-            // mtsSair
-            // 
-            mtsSair.Name = "mtsSair";
-            mtsSair.Size = new Size(38, 20);
-            mtsSair.Text = "Sair";
-            mtsSair.Click += mtsSair_Click;
             // 
             // médiaDasNotasToolStripMenuItem
             // 
             médiaDasNotasToolStripMenuItem.Name = "médiaDasNotasToolStripMenuItem";
-            médiaDasNotasToolStripMenuItem.Size = new Size(212, 22);
+            médiaDasNotasToolStripMenuItem.Size = new Size(265, 26);
             médiaDasNotasToolStripMenuItem.Text = "Média das notas";
             médiaDasNotasToolStripMenuItem.Click += médiaDasNotasToolStripMenuItem_Click;
             // 
+            // mtsSair
+            // 
+            mtsSair.Name = "mtsSair";
+            mtsSair.Size = new Size(48, 24);
+            mtsSair.Text = "Sair";
+            mtsSair.Click += mtsSair_Click;
+            // 
+            // rendaDeUmJogoToolStripMenuItem
+            // 
+            rendaDeUmJogoToolStripMenuItem.Name = "rendaDeUmJogoToolStripMenuItem";
+            rendaDeUmJogoToolStripMenuItem.Size = new Size(265, 26);
+            rendaDeUmJogoToolStripMenuItem.Text = "Renda de um jogo";
+            rendaDeUmJogoToolStripMenuItem.Click += rendaDeUmJogoToolStripMenuItem_Click;
+            // 
             // frmMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(mtsMenu);
             MainMenuStrip = mtsMenu;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Menu";
@@ -134,5 +144,6 @@
         private ToolStripMenuItem quadradoDaSomaToolStripMenuItem;
         private ToolStripMenuItem areaDaCircunferenciaToolStripMenuItem;
         private ToolStripMenuItem médiaDasNotasToolStripMenuItem;
+        private ToolStripMenuItem rendaDeUmJogoToolStripMenuItem;
     }
 }
