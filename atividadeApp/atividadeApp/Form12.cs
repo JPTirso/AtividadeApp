@@ -34,7 +34,7 @@ namespace atividadeApp
                     txtLanche.Text = "X-Burguer - R$ 35,00";
                     break;
                 case 103:
-                    txtLanche.Text = "Triplo X-Burguer - R$ 35,00";
+                    txtLanche.Text = "Triplo X-Burguer - R$ 45,00";
                     break;
                 default:
                     txtLanche.Text = "Código inválido! Tente novamente.";
